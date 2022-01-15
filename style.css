@@ -45,6 +45,7 @@ header{
     background: #ffffff;
     padding:10px 0;
     animation: slideDown 1s ease .0s 1;
+    
 }
 
 header .container{
@@ -90,6 +91,7 @@ header .container{
     padding:30px;
     border-radius:5px;
     animation: fadeSlide 1.5s ease 0s 1;
+    
     
 }
 button{
@@ -203,6 +205,14 @@ ion-icon.icon{
     font-size: 15px;
   margin: 2px 2px;
   cursor: pointer;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    width: 80px;
+    height: 20px;
+    border: 5px;
+     
   }
    /* part 3  end*/
   /* Footer Area Styles  */
