@@ -12,17 +12,9 @@ body{
     padding: 5px 5px;
 }
 
-.dot{
-    height: 300px;
-    width: 300px;
-    background-color: rgb(219, 219, 219);
-    border-radius: 20%;
-    display: inline-block;
-    
-  }
-  .half-width img{
-      width: 200px;
-  }
+
+  
+  
 
 .container{
     max-width: 870px;
@@ -243,7 +235,7 @@ ion-icon.icon{
 #footer_area .container{
     background-color:#040d24;
     padding: 50px 70px;
-    border: radius 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
     animation: fadeSlide 2.5s ease 0s 1;
     text-align: center; color: seashell;
     justify-content: space-between;
@@ -272,9 +264,42 @@ width: 30px;
 .social_icons ion-icon:hover{
     color:#FF4A60;
 }
-@media only screen and (max-width: 600px) {
-    ul {
-      display: initial;
-    }
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
 }
+
  /* Footer Area Styles end  */
+ * Media Queries */
+ @media (max-width:688px){
+    .navigation-items li{
+    padding:0 10px;
+}
+    #top_section .container{
+        padding: 30px;
+    }
+    
+    
+    .single_course{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .courses{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #latest_collection .container{
+        padding:30px;
+    }
+    
+ }
