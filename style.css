@@ -8,13 +8,29 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #f9f8ff;
+    background-color: #f7f7f7;
+    padding: 5px 5px;
 }
+
+.dot{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 20%;
+    display: inline-block;
+    
+  }
+  .half-width img{
+      width: auto;
+  }
+
 .container{
     max-width: 870px;
     margin:0 auto;
     padding:0 20px;
 }
+
+
 
 section{
     margin:10px;
@@ -191,14 +207,19 @@ ion-icon.icon{
   /* part 3 */
 .flexible-container {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    padding: 10px 15px;
+    background-color: white;
   }
   .half-width {
-    width: 40%;
-    
+    width: 30%;
+     display: inline-block;
+     
   }
   .half-width img {
     width: 70%;
+    border-radius:  15px;
+
   }
   .link-button {
     border-radius: 10px;
@@ -221,28 +242,39 @@ ion-icon.icon{
   /* Footer Area Styles  */
 #footer_area .container{
     background-color:#040d24;
-    padding: 20px 50px;
+    padding: 50px 70px;
     border: radius 5px 5px 0 0;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
     animation: fadeSlide 2.5s ease 0s 1;
     text-align: center; color: seashell;
+    justify-content: space-between;
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 #footer_area .logo img{
 width: 30px;
+
 }
 .social_icons{
     display: flex;
+    
+    
     
 }
 .social_icons ion-icon{
     margin-left:15px;
     font-size:20px;
     color:#fff;
+    
 }
 .social_icons ion-icon:hover{
     color:#FF4A60;
+}
+@media only screen and (max-width: 600px) {
+    ul {
+      display: initial;
+    }
 }
  /* Footer Area Styles end  */
