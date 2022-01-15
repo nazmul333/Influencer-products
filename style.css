@@ -15,6 +15,7 @@ body{
     margin:0 auto;
     padding:0 20px;
 }
+
 section{
     margin:10px;
 }
@@ -102,25 +103,32 @@ button{
   
 
 }
+.hr{
+    border-top:1px solid #dbdbdb;
+    margin:40px 0 30px 0;
+}
 .container{
     font-size:large;
     
 }
-hr{
-    border-top:1px solid #000000;
-    margin:40px 0 30px 0;
-}
+
+
 #latest_collection.container{
     background-color: rgb(255, 255, 255);
-    margin:20px auto;
+    margin:30px auto;
     padding:10px;
-    border-radius:5px;
+    border-radius:6px;
     animation: fadeSlide 2s ease 0s 1;
 }
+
 .courses{
     display:grid;
     grid-template-columns: repeat(3,10fr);
     grid-gap:15px;
+}
+.section_title{
+    text-align: center;
+     
 }
 .single_course{
     box-shadow: 0px 5.34229px 13.3557px rgba(228, 222, 222, 0.05);
@@ -162,17 +170,66 @@ hr{
     display: flex;
     align-items: center;
 }
-ion-icon.icon {
+
+
+ion-icon.icon{
     margin-top: 5px;
     margin-right: 5px;
     color:#FF4A60;
+   
 }
 .course_duration .time{
     font-size:13px;
     color:#FF4A60;
 }
 
-
-
+  /* part 3 */
+.flexible-container {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .half-width {
+    width: 40%;
     
-
+  }
+  .half-width img {
+    width: 70%;
+  }
+  .link-button {
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: rgb(255, 64, 127);
+    padding: 10px 15px;
+    font-size: 15px;
+  margin: 2px 2px;
+  cursor: pointer;
+  }
+   /* part 3  end*/
+  /* Footer Area Styles  */
+#footer_area .container{
+    background-color:#040d24;
+    padding: 20px 50px;
+    border: radius 5px 5px 0 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: fadeSlide 2.5s ease 0s 1;
+    text-align: center; color: seashell;
+    
+}
+#footer_area .logo img{
+width: 30px;
+}
+.social_icons{
+    display: flex;
+    
+}
+.social_icons ion-icon{
+    margin-left:15px;
+    font-size:20px;
+    color:#fff;
+}
+.social_icons ion-icon:hover{
+    color:#FF4A60;
+}
+ /* Footer Area Styles end  */
